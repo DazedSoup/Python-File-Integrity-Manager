@@ -53,4 +53,4 @@
   
      
 **IMPORTANT DISCLAIMER**
-  This project was originally written for Command Line Interface (CLI) usage, and in doing so the CLI code was tested with a hard-coded directory and logfile + Baseline file storage, as for the GUI version, the save          directory is a hard-coded location. If you do take this projec,t please change this. I will continue to update this project and make the file selection more seamless. 
+  This project was originally written for Command Line Interface (CLI) usage, and in doing so the CLI code was tested with a hard-coded directory and logfile + Baseline file storage. For the GUI version, the save          directory for the baseline and log is also a hard-coded location. If you do take this project, please change this. I will continue to update this project and make the file selection more seamless. 
