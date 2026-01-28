@@ -19,7 +19,7 @@ class FIMApp:
         
         # 1. HARDCODED LOG PATH 
         # We use r"" (raw string) to handle the backslashes correctly
-        self.log_dir = r"C:\Users\user\.gemini\antigravity\FIM project\Log + Baseline"
+        self.log_dir ="THIS WAS HARD CODED CHANGE IT TO YOURS"
         
         # 2. AUTO-CREATE FOLDER
         # If this specific folder doesn't exist, we make it.
