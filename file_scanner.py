@@ -58,10 +58,10 @@ def scan_directory(directory_path):
     return file_hashes
 
 if __name__ == "__main__":
-    # Example usage (for testing purposes)
+    
     import sys
     
-    target_dir = r"C:\Users\user\.gemini\antigravity\FIM project\test_files"
+    target_dir = "YOUR DIRECTORY"
     if len(sys.argv) > 1:
         target_dir = sys.argv[1]
         
