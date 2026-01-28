@@ -92,5 +92,29 @@ fim_log.txt - Time-stamped audit log of all detected events.
 
 
 
+🚀
+
+
+  **Some images of running the GUI**
+
+  <img width="690" height="567" alt="FIM ss1" src="https://github.com/user-attachments/assets/ee4eda27-8f53-4079-b792-454e9db85537" />
+
+
+  <img width="1444" height="462" alt="FIM ss2" src="https://github.com/user-attachments/assets/37cbadba-7557-4cfb-81e6-161bda4001ca" />
+
+
+  <img width="756" height="690" alt="FIM ss3" src="https://github.com/user-attachments/assets/100ba424-6bba-4ba4-a5a9-f3bf2a03342f" />
+
+
+  <img width="992" height="599" alt="FIM ss4" src="https://github.com/user-attachments/assets/9872b6ff-d638-42d8-8cea-6b7822306104" />
+  
+
+
+
+
+
+
+
+
 
   
