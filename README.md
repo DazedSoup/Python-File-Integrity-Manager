@@ -1,5 +1,5 @@
 # Python-File-Integrity-Manager
-A lightweight Host-Based Intrusion System (HIDS) built in Python. This tool provides real time monitoring of any directory, alerting users to unauthorized file modifications, deletions, and creations.
+  A lightweight Host-Based Intrusion System (HIDS) built in Python. This tool provides real time monitoring of any directory, alerting users to unauthorized file modifications, deletions, and creations.
   
   
   
@@ -7,7 +7,7 @@ A lightweight Host-Based Intrusion System (HIDS) built in Python. This tool prov
   
   
 **WHY I BUILT THIS**
-File integrity is a core component of cybersecurity and "Blue Team" defense. I built this tool to understand the underlying mechanics of enterprise solutions like Tripwire use to detect anomalies. This demonstrates practical application of cryptographic hashing and automated incident response. 
+  File integrity is a core component of cybersecurity and "Blue Team" defense. I built this tool to understand the underlying mechanics of enterprise solutions like Tripwire use to detect anomalies. This demonstrates the     practical application of cryptographic hashing and automated incident response. 
   
   
   
@@ -34,10 +34,10 @@ File integrity is a core component of cybersecurity and "Blue Team" defense. I b
   
   
 **Technicals Used**
-Language: Python 3.12
-GUI: tkinter 
-Hashing: hashlib (SHA-256)
-Notifications: win10toast
+  Language: Python 3.12
+  GUI: tkinter 
+  Hashing: hashlib (SHA-256)
+  Notifications: win10toast
   
   
   
@@ -47,10 +47,10 @@ Notifications: win10toast
   
   
 **Dependencies Needed**
-pip install win10toast (This is used for creating the notifications)
+  pip install win10toast (This is used for creating the notifications)
   
 
   
      
 **IMPORTANT DISCLAIMER**
-This project was originally written for Command Line Interface (CLI) usage, and in doing so the CLI code was tested with a hard-coded directory and logfile + Baseline file storage, as for the GUI version, the save directory is a hard-coded location. If you do take this projec,t please change this. I will continue to update this project and make the file selection more seamless. 
+  This project was originally written for Command Line Interface (CLI) usage, and in doing so the CLI code was tested with a hard-coded directory and logfile + Baseline file storage, as for the GUI version, the save          directory is a hard-coded location. If you do take this projec,t please change this. I will continue to update this project and make the file selection more seamless. 
