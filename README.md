@@ -2,8 +2,17 @@
 A lightweight Host-Based Intrusion System (HIDS) built in Python. This tool provides real time monitoring of any directory, alerting users to unauthorized file modifications, deletions, and creations.
 
 
+
+
+
+
 **WHY I BUILT THIS**
-File integrity is a core component of cybersecurity and "Blue Team" defense. I built this tool to understand the underlying mechanics of enterprise solutions like Tripwire use to detect anomolies. This demonstrates pratical application of cryptographic hashing and automated incident response. 
+File integrity is a core component of cybersecurity and "Blue Team" defense. I built this tool to understand the underlying mechanics of enterprise solutions like Tripwire use to detect anomalies. This demonstrates practical application of cryptographic hashing and automated incident response. 
+
+
+
+
+
 
 
 **KEY FEATURES**
@@ -19,11 +28,23 @@ Persistent Logging: Detailed audit logs are saved to a dedicated Log + Baseline 
 
 Non-Blocking Performance: Uses Python threading to ensure the UI remains responsive while the scanner runs in the background.
 
+
+
+
+
+
 **Technicals Used**
 Language: Python 3.12
 GUI: tkinter 
 Hashing: hashlib (SHA-256)
 Notifications: win10toast
+
+
+
+
+
+
+
 
 **Dependencies Needed**
 pip install win10toast (This is used for creating the notifications)
