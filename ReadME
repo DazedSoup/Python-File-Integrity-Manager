@@ -1,0 +1,3 @@
+A few things I wanted to highlight: 
+The file_scanner.py is needed to generate the hash for the baseline file.
+As mentioned before the CLI has a folder that was hard-coded for testing, so if it is not changed please change it. I do apologize. Same for the GUI code the save location was hard-coded so it wil need to be changed to whatever directory you want, I will have comments in the code just in case. 
