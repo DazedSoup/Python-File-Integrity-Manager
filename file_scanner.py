@@ -61,7 +61,7 @@ if __name__ == "__main__":
     
     import sys
     
-    target_dir = "YOUR DIRECTORY"
+    target_dir = "YOUR DIRECTORY OF WHERE TO HASH FILES"
     if len(sys.argv) > 1:
         target_dir = sys.argv[1]
         
