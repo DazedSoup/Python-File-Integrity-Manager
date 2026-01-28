@@ -5,17 +5,18 @@
   
   
   
-  
-**WHY I BUILT THIS**
+🛡️  
+**WHY I BUILT THIS:**
   File integrity is a core component of cybersecurity and "Blue Team" defense. I built this tool to understand the underlying mechanics of enterprise solutions like Tripwire use to detect anomalies. This demonstrates the     practical application of cryptographic hashing and automated incident response. 
   
   
   
   
   
- 
+ 🚀
   
-**KEY FEATURES**
+**KEY FEATURES:**
+
   Real-Time Detection: Continuously polls a target directory for changes.
 
   SHA-256 Hashing: Uses secure cryptographic hashing to create a "Golden Image" (baseline) of files.
@@ -32,12 +33,18 @@
   
   
   
+  🛠️
   
-**Technicals Used**
+**Technicals Used:**
+
   Language: Python 3.12
+  
   GUI: tkinter 
+  
   Hashing: hashlib (SHA-256)
+  
   Notifications: win10toast
+
   
   
   
@@ -46,11 +53,44 @@
   
   
   
-**Dependencies Needed**
+  
+**Dependencies Needed:**
   pip install win10toast (This is used for creating the notifications)
   
 
+📂
+
+**Project Structure:**
+
+fim_gui.py - The main entry point. Handles the UI, threading, and alerting logic.
+
+file_scanner.py - The engine. Handles file iteration and SHA-256 calculation.
+
+baseline.txt - Stores the cryptographic fingerprint of the target directory.
+
+fim_log.txt - Time-stamped audit log of all detected events.
+
+🔮
+
+
+
+
+
+  **Future Roadmap:**
   
-     
-**IMPORTANT DISCLAIMER**
-  This project was originally written for Command Line Interface (CLI) usage, and in doing so the CLI code was tested with a hard-coded directory and logfile + Baseline file storage. For the GUI version, the save          directory for the baseline and log is also a hard-coded location. If you do take this project, please change this. I will continue to update this project and make the file selection more seamless. 
+  Migrate from text-based logs to SQLite for better query performance.
+  
+  Add Discord Webhook integration for remote monitoring.
+  
+  Allow users to set the scan interval instead of a predetermined interval.
+  
+
+  🖥️
+  
+**IMPORTANT DISCLAIMER:**
+  This project was originally written for Command Line Interface (CLI) usage, and in doing so the CLI code was tested with a hard-coded directory and logfile + Baseline file storage. For the GUI version, the save directory for the baseline and log is also a hard-coded location. If you do take this project, please change this. I will continue to update this project and make the file selection more seamless. 
+
+
+
+
+  
