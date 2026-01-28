@@ -26,7 +26,7 @@ def log_event(messsage):
         log_file.write(formatted_message)
 
 # CONFIGURATION
-TARGET_DIR = r"C:\Users\user\.gemini\antigravity\FIM project\test_files" # The folder to watch
+TARGET_DIR = "THIS WAS HARD CODED CHANGE IT TO YOURS" # The folder to watch
 BASELINE_FILE = "baseline.txt"
 POLLING_INTERVAL = 10  # Seconds between checks
 
