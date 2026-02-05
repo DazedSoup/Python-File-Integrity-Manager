@@ -1,5 +1,7 @@
 
-Project Name: Python File Integrity Monitor (FIM) Version: 1.0 Status: Complete Author: [Your Name]
+**Python File Integrity Monitor (FIM) Version: 1.0  Author: 
+<br>
+[Tarun Satish]**
 <br>
 <br>
 <br>
